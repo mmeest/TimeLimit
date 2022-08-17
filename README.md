@@ -41,8 +41,12 @@ shell:startup
 5. On opened windows create new text file and add following code.
 In this example our program location is 'C:\time\time.exe'.
 If you save it to somewhere else then edit code accordingly.
+First we opeen working directory. And on second step we start our program.
 
 ```
+Set objShell = CreateObject(“Wscript.Shell”)
+objShell.CurrentDirectory = “C:\time”
+
 Set WshShell = CreateObject("WScript.Shell") 
 WshShell.Run chr(34) & "C:\Batch Files\syncfiles.bat" & Chr(34), 0
 Set WshShell = Nothing
