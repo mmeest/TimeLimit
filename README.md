@@ -31,12 +31,21 @@ Meant to use on hidden/stealth mode when computer starts.
 
 1. First of all allow this program on Windows Defender and antivirus programs. Current application could be taken as a threat.
 2. Set the program propertie as hidden.
-3. Copy program location. For example "C:/TimeLimit/time.exe"
-4. Open registri editor: Win+R type regedit and press 'ENTER'
-5. Locate: HKEY_CURRENT_USER > Software > Microsoft > Windows > CurrentVersion > Run
-6. Add New String Value
-7. Doubleclick it and add your program location. For example: 
+3. Press Win+R
+4. Type 
 
 ```
-"C:/TimeLimit/time.exe" /backround
+shell:startup
 ```
+
+5. On opened windows create new text file and add following code.
+In this example our program location is 'C:\time\time.exe'.
+If you save it to somewhere else then edit code accordingly.
+
+```
+Set WshShell = CreateObject("WScript.Shell") 
+WshShell.Run chr(34) & "C:\Batch Files\syncfiles.bat" & Chr(34), 0
+Set WshShell = Nothing
+```
+6. Save the file and close Notepad.
+7. Rename the text file to VB Script. For example 'time.vb'. Thats it. Next time you restart your computer our time counter will start invisibly.
