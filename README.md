@@ -48,7 +48,7 @@ Set objShell = CreateObject(“Wscript.Shell”)
 objShell.CurrentDirectory = “C:\time”
 
 Set WshShell = CreateObject("WScript.Shell") 
-WshShell.Run chr(34) & "C:\Batch Files\syncfiles.bat" & Chr(34), 0
+WshShell.Run chr(34) & "time.exe" & Chr(34), 0
 Set WshShell = Nothing
 ```
 6. Save the file and close Notepad.
