@@ -1,3 +1,5 @@
+<p align="center"><img src="hour py.png" width="420px"></p>
+
 <p align="center"><img src="pic/screenshot.gif" width="500px"></p>
 
 <h1 align="center">
