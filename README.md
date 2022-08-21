@@ -10,8 +10,15 @@
 <hr>
 
 ### Contents
+- [Pre requirements](#pre-requirements)
 - [Usage](#usage)
 - [Step by step](#step-by-step)
+
+<hr>
+
+### Pre requirements
+
+Installed Python is required.
 
 <hr>
 
