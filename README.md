@@ -1,4 +1,4 @@
-<p align="center"><img src="hour py.png" width="320px"></p>
+<p align="center"><img src="hour py.png" width="220px"></p>
 
 <p align="center"><img src="pic/screenshot.gif" width="500px"></p>
 
