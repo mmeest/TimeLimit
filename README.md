@@ -1,4 +1,4 @@
-<p align="center"><img src="hour py.png" width="420px"></p>
+<p align="center"><img src="hour py.png" width="320px"></p>
 
 <p align="center"><img src="pic/screenshot.gif" width="500px"></p>
 
@@ -26,7 +26,7 @@ Installed Python is required.
 
 ### Usage
 
-This small pgrogram is designed to limit daily computer usage or screen time.
+This program is designed to limit daily computer usage or screen time.
 Current version is limiting daily time in 180 minutes or 3 hours.
 When time limit runs out then Computer shuts down.
 Program keeps track daily and resets when date changes.
